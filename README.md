@@ -43,4 +43,11 @@ while true; do
 done
 ```
 
+Save this script to a file (e.g., monitor_power_supply.sh) and make it executable:
+
+The script will continuously check the status of the GPIO pin and print whether the power supply is ON or OFF.
+Remember to customize the GPIO_PIN variable with the actual GPIO pin number you are using, and adjust the sleep interval (sleep) to control how often the script checks the status.
+
+
+
 
