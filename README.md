@@ -14,14 +14,14 @@ Then, navigate to "Interfacing Options" and enable the "GPIO" interface.
 
 You can use the gpio command to read the status of a GPIO pin. For example, if you want to monitor GPIO17:
 
-```
+```bash
 gpio read 17
 ```
 This command will return 0 if the pin is LOW (off) and 1 if the pin is HIGH (on).
 
 You can create a shell script to continuously monitor the GPIO pin's status and display it in the terminal. Here's a simple example:
 
-```
+```bash
 #!/bin/bash
 
 # Set the GPIO pin number
